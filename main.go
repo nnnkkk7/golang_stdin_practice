@@ -8,7 +8,7 @@ import (
 
 func main() {
 	fmt.Println("input your name!!!")
-
+        input() 
 }
 
 func input() string {
