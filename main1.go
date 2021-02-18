@@ -4,11 +4,18 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strings"
 )
 
 func main() {
 	fmt.Println("input your name!!!")
-        input() 
+	i := input()
+	//一文字ずつ分割
+	slice := strings.Split(i, "")
+	for _, s := range slice {
+		fmt.Printf("[%s]", s)
+	}
+
 }
 
 func input() string {
