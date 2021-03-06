@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	// 入力を受け取る
 	scan := bufio.NewScanner(os.Stdin)
 
 	for scan.Scan() {
