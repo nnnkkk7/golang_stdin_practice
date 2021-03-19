@@ -22,6 +22,7 @@ func input() string {
 	// 標準入力を受け取る
 	stdin := bufio.NewScanner(os.Stdin)
 	stdin.Scan()
+	// 文字列で返す
 	text := stdin.Text()
 	return text
 }
